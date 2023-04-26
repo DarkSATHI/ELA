@@ -1,0 +1,330 @@
+html {
+    user-select: none;
+}
+
+img {
+    margin-bottom: 2vw;
+    width:100%;
+   
+}
+
+a{
+    display: block;
+    color:white;
+    margin-bottom: 2vw;
+}
+
+.btn[value='Valider']{
+    margin-top: 5vw;
+}
+
+#isa {
+    margin-bottom: 2vw;
+}
+
+body {
+    background-color: rgba(223, 19, 110, 0.4);
+    margin:0;
+    padding:0;
+}
+
+label {
+    color: crimson;
+}
+
+#aide {
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.2vw 0.2vw 0.2vw #2F1111;
+}
+
+#date {
+    display: block;
+    color: grey;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#points {
+    display: block;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    color: rgba(223, 19, 110, 1);
+    /*font-family: titre;*/
+    text-shadow: 0.2vw 0.2vw 0.2vw white;
+}
+
+#enigme,
+#information,
+#fou {
+    font-size: 4.5vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0.2vw 0.2vw 0.2vw #2F1111;
+}
+
+#information {
+    margin-bottom: 2vw;
+    
+}
+
+#titreEnigme {
+    font-family: titre;
+    font-size: 16vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0.4vw 0.4vw 0.4vw #2F1111;
+}
+
+h1 {
+    display: block;
+    height: 14vw;
+    line-height: 14vw;
+    font-size: 8vw;
+    /*font-family: titre;*/
+    margin-top: 4vw;
+    color: white;
+    margin-bottom: 4vw;
+    text-shadow: 0.3vw 0.3vw 0.4vw grey;
+    background-color: rgba(223, 19, 110, 1);
+}
+
+h1::before {
+    display: block;
+    width: 14vw;
+    height: 14vw;
+    content: "";
+    background-image: url(../assets/elaLogo.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.img-thumbnail {
+    width: 20vw;
+    height: 20vw;
+}
+
+@font-face {
+    font-family: titre;
+    src: url('../assets/fonts/Albatros.ttf');
+}
+
+@font-face {
+    font-family: ecole;
+    src: url('../assets/fonts/ecole.otf');
+}
+
+.btn {
+    display: block;
+    font-size: 5.5vw;
+    font-family: titre;
+    color:  rgba(223, 19, 110, 1);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-shadow: 0.4vw 0.4vw 0.4vw grey;
+    box-shadow: 0.4vw 0.4vw 0.4vw grey;
+}
+
+iframe{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    width:100%;
+}
+
+.card-body {
+    /*background-image: url('https://destinationsante.com/wp-content/uploads/2019/03/ADN-genes-Meszi.Mate-1200-shutterstock.jpg');*/
+    background-size: cover;
+    background-color: rgba(223, 19, 110, 1);
+}
+
+#start {
+    font-size: 4vw;
+    text-align: center;
+    /*font-family: titre;*/
+}
+
+input {
+    font-size: 4vw;
+    text-align: center;
+    background-color: #12131F6F;
+    color: white;
+}
+
+#reponse {
+    font-size: 3.5vw;
+    color: white;
+    font-weight: bold;
+}
+
+#erreur1 {
+    width: 60vw;
+}
+
+#erreur2,
+#erreur3 {
+    font-size: 3.5vw;
+    font-weight: bold;
+    
+}
+
+#erreur2 {
+    color: white;
+}
+
+#erreur3 {
+    color: white;
+}
+
+@media (min-width: 400px) {
+
+    h1 {
+        height: 12vw;
+        line-height: 12vw;
+        font-size: 7vw;
+    }
+
+    .img-thumbnail {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    h1::before {
+        display: block;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #start {
+        font-size: 3vw;
+    }
+
+    .card {
+        width: 100vw;
+    }
+
+    #titreEnigme {
+        font-size: 9vw;
+    }
+
+    #enigme,
+    #information,
+    #fou {
+        font-size: 2.5vw;
+    }
+
+    .btn {
+        font-size: 2.5vw;
+    }
+
+    input {
+        font-size: 3vw;
+    }
+
+    #reponse {
+        font-size: 2.5vw;
+    }
+
+    #erreur2,
+    #erreur3 {
+        font-size: 1.5vw;
+    }
+
+    #points {
+        font-size: 3vw;
+    }
+
+    #date {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    iframe{
+        width: 512px;
+        height: 315px;
+    }
+
+    video{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ela{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #points{
+        font-size: 40px;
+    }
+
+    h1 {
+        height: 80px;
+        line-height: 80px;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .img-thumbnail {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1::before {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #start {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 700px;
+    }
+
+    #titreEnigme {
+        font-size: 60px;
+    }
+
+    #enigme,
+    #information,
+    #fou {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 20px;;
+    }
+
+    #reponse {
+        font-size: 20px;
+    }
+
+    #erreur {
+        font-size: 20px;
+    }
+
+    #erreur1 {
+        width: 300px;
+    }
+}
